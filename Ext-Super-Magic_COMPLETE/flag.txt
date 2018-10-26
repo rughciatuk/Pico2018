@@ -1,0 +1,10 @@
+First we need to edit the hex of the file because
+`file` return data. Looking on google ext (because
+of the name of the problem) gets that at offset 0x438
+there need to be 53ef, so edit that with `ghex`.
+After that we can open the filesystem in `testdisk`
+and copy the file "flag.jpg" to local directory.
+The flag is part of the image.
+
+
+picoCTF{B3a388F85f93246B9DBA7Cc0fbBA5eE0}
