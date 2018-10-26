@@ -1,0 +1,6 @@
+In assembly the return of a function is the `eax` at the end of the function.
+So in here we load the first value that we get into `eax` then load the second
+into `EBX`, then we set the value of `EAX` equal to `EBX` so our flag is the 
+second value that is passed into the function
+
+0x7a
