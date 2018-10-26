@@ -1,0 +1,4 @@
+Using "StegSolve" extract option and selecting the 0 bit
+from the red, green, and blue planes we get the flag.
+
+picoCTF{r34d1ng_b37w33n_7h3_by73s}
