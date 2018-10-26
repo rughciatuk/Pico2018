@@ -1,0 +1,4 @@
+In the problem the first button send a `POST` and the second
+send a `GET`. So all we need to do is to change the `GET` to `POST`
+
+picoCTF{button_button_whose_got_the_button_dfe8b73c}
