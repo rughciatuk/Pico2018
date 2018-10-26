@@ -1,0 +1,44 @@
+int do_magic() {
+    text = read_input();
+    length = strlen(text);
+    esp = ((esp - 0x10) + 0x10 - 0x10) + 0x10;
+    new_text = malloc(length + 0x1);
+    if (new_text != 0) goto init_input;
+
+loc_804867c:
+    puts("malloc() returned NULL. Out of Memory\n");
+    eax = exit(0xffffffff);
+    return eax;
+
+end_function:
+    return eax;
+
+init_input:
+    memset(new_text, 0, length + 0x1);
+    esp = (esp - 0x10) + 0x10;
+    sum = 0x0;
+    i = 0x0;
+    goto test_length;
+
+test_length:
+    eax = i;
+    if (eax < length) goto check_char;
+    goto end_function;
+
+check_char:
+    if ((*(int8_t *)(i + *greetingMessage) & 0xff) == (*(int8_t *)(text + i) & 0xff ^ *(int8_t *)(i + 0x8048858) & 0xff)) {
+            sum = sum + 0x1;
+    }
+    if (sum != 0x19) goto increment_i;
+
+winner:
+    eax = puts("You are winner!");
+    return eax;
+
+increment_i:
+    i = i + 0x1;
+    goto test_length;
+}
+
+// )..O+50.Q.[.K.]+P.]...YR]
+// You have now entered the 
