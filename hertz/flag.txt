@@ -1,0 +1,4 @@
+Using this site "https://www.guballa.de/substitution-solver" we can
+paste the text that we get, and then we get the key.
+
+substitution_ciphers_are_solvable_poounsvovg
