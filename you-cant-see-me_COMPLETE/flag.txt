@@ -1,0 +1,4 @@
+The name of the file is ".  " which we can see with `ls -lab`.
+Which then we can see the content of with `cat ".  "`
+
+picoCTF{j0hn_c3na_paparapaaaaaaa_paparapaaaaaa_22f627d9}
