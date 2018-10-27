@@ -1,0 +1,9 @@
+Following the assembly code, we check
+if 0x76 (input) is equal greater then 0x98
+it isn't so we check if 0x76 != 0x8
+it's isn't so we jump to part_b and there
+we set the value of `EAX` to the input (0x76)
+then subtruct 0x3 and jump to part_d which is 
+where we return.
+
+0x73
