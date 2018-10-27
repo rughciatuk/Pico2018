@@ -1,0 +1,3 @@
+The flag was in a **DNS** request.
+
+picoCTF{w4lt3r_wh1t3_ddfad6f8f4255adc73e862e3cebeee9d}
