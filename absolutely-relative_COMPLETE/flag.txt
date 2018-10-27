@@ -1,0 +1,4 @@
+Insted of runnig the program like `./absolutely-relative` we can run it 
+from `~` with `/problems/absolutely-relative_1_15eb86fcf5d05ec169cc417d24e02c87/absolutely-relative`
+
+picoCTF{3v3r1ng_1$_r3l3t1v3_a97be50e}
