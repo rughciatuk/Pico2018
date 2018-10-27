@@ -1,0 +1,3 @@
+run the file `answer.py` on the server.
+
+picoCTF{syc4al1s_4rE_uS3fUl_88aa45fa}
