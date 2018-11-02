@@ -1,0 +1,3 @@
+In here all we do is pipe the output to grep with 'pico'
+
+picoCTF{p1p1ng_1S_4_7h1ng_437b5c88}
