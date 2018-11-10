@@ -1,0 +1,5 @@
+In here what we do is create http request by hand, starting with /
+then going to /login from there we send a post request and recive a cookie,
+that we send to / and recive our flag.
+
+picoCTF{0nLY_Us3_n0N_GmO_xF3r_pR0tOcol5_251f}
