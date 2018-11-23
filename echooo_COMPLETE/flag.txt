@@ -1,0 +1,3 @@
+We can print the stack that contine the flag.
+
+picoCTF{foRm4t_stRinGs_aRe_DanGer0us_3f8bced3}
