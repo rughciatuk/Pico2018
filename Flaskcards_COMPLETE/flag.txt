@@ -1,0 +1,4 @@
+
+This is ssti with flask, just enter {{config}} in the card part.
+
+picoCTF{secret_keys_to_the_kingdom_2a7bf92c}
