@@ -1,0 +1,4 @@
+Using gdb we can set a break point just before exiting.
+Then we can print the buf.
+
+picoCTF{gDb_iS_sUp3r_u53fuL_a6c61d82}
